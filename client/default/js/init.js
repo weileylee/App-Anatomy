@@ -57,7 +57,7 @@ function getTabData(callback) {
   
   // Make act call to get latest config from server
   $fh.act({
-    act: 'getConfig'
+    act: 'getAnotherConfig'
   }, function (result) {
     // Got config from server, so overwrite our local config
     $fh.log({message: 'got config from server:' + JSON.stringify(result)});
