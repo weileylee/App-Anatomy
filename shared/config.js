@@ -24,7 +24,7 @@ var config = {
       'To demonstrate the usefulness of this pattern, the Reload button can be used to update the tab contents after the app has been deployed. From the Studio, edit the contents for any of the tab data in /shared/config.js (after deploying the app to a device) and press the Reload button.'
     ],
     tab5: [
-      'test',
+      'test0',
       'test1',
       'test2',
       'test3',
