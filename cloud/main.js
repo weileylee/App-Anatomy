@@ -3,7 +3,7 @@ function getConfig() {
 }
 
 function getAnotherConfig(){
-  return {
+  return {data: {
     tabData: {
     tab1: [
       'this is calling another config',
@@ -29,5 +29,6 @@ function getAnotherConfig(){
       'To demonstrate the usefulness of this pattern, the Reload button can be used to update the tab contents after the app has been deployed. From the Studio, edit the contents for any of the tab data in /shared/config.js (after deploying the app to a device) and press the Reload button.'
     ]
   }
+ }
  }
 }
